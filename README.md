@@ -26,9 +26,18 @@ Enter your `name` and `connect.sid` cookie to access subscriber-only rooms
 
 <br>
 
+## Help
+```bash
+thm2md --help
+```
+or
+```bash
+thm2md -h
+```
+<br>
+
 ## Usage
 
-For one qr code image:
 ```bash
 thm2md [room_name] [Path To Save]
 ```
