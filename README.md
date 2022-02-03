@@ -1,30 +1,27 @@
 # thm2md
-### A python3 tool to create .md notes for TryHackMe rooms
+<p align="center">
+  <img src="./logo.png" />
+</p>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23F70000&size=25&duration=10000&center=true&vCenter=true&width=950&lines=thm2md+-+A+python3+tool+to+make+notes+for+TryHackMe+rooms)](https://github.com/sky9262/thm2md/)
 
 <br>
 
-<br>
 
 ## Requirments
 
 - python3
-
-<br>
 
 ## Installation
 ```bash
 sudo bash install.sh
 ```
 
-<br>
-
 ## Setup
 ```bash
 thm2md --setup
 ```
 Enter your `name` and `connect.sid` cookie to access subscriber-only rooms
-
-<br>
 
 ## Help
 ```bash
@@ -34,7 +31,6 @@ or
 ```bash
 thm2md -h
 ```
-<br>
 
 ## Usage
 
@@ -47,7 +43,6 @@ Example:
 thm2md shodan ~/Desktop
 ```
 
-<br>
 
 <br>
 
