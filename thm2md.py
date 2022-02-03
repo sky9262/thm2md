@@ -95,14 +95,14 @@ else:
 
 if "text/html" in resp.headers.get("content-type"):
     print(
-        "This room is for subscriber-only.\nPlease run 'thm2md.py --setup' and enter a valid 'connect.sid' cookie if you have subscription."
+        "This room is for \033[91msubscriber-only\033[0m.\nPlease run \033[93m'thm2md.py --setup'\033[0m and enter a valid \033[93m'connect.sid'\033[0m cookie if you have subscription."
     )
     exit()
 
 data = resp.json()
 
 if "application/json" in resp.headers.get("content-type") and len(data["data"]) == 0:
-    print("Room does not exist!!!")
+    print("\033[91mRoom does not exist!!!\033[0m")
     exit()
 
 
